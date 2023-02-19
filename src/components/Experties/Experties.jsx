@@ -25,7 +25,7 @@ const Experties = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
+                                <span className='secondaryText'>{exp.projects} </span>
                             </div>
                         </motion.div>
                     })
@@ -44,8 +44,8 @@ const Experties = () => {
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Project Completed</span>
+                        <span className='primaryText'>100+</span>
+                        <span className='secondaryText'>Companies</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
                         <span className='primaryText'>190+</span>

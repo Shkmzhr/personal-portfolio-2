@@ -14,14 +14,14 @@ const Hero = () => {
       >
         <div className={css.upperElements}>
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
-            Hey There,
+          We believe in providing 100% customer satisfaction.
             <br />
-            I'm Binjan.
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
+          Since 1996, best in class IT infrastructure solutions provider in  the World
+
             <br />
-            things, And I love what i do{" "}
+            Unlocking the potential to scale your business to the next level through prudent IT growth strategies and operational efficiency.{" "}
           </motion.span>
         </div>
 
@@ -29,16 +29,16 @@ const Hero = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="" alt="" />
         </motion.div>
 
-        <a className={css.email} href="mailto:zainkeepscode@gmail.com">
-          zainkeepscode@gmail.com
+        <a className={css.email} href="">
+          companyname@gmail.com
         </a>
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">10</div>
+            <div className="primaryText">10+</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
@@ -46,9 +46,9 @@ const Hero = () => {
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
-            <span>UI/UX DESIGNER</span>
+            <img src="./Ring.png" alt="" />
+            <span></span>
+            <span>Find the perfect person every time</span>
           </motion.div>
         </div>
       </motion.div>

@@ -18,12 +18,14 @@ const Hero = () => {
             <br />
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-          Since 1996, best in class IT infrastructure solutions provider in  the World
+          Since 1996, best in class IT infrastructure solutions provider in  the World.
 
             <br />
             Unlocking the potential to scale your business to the next level through prudent IT growth strategies and operational efficiency.{" "}
+          
+          Learn more about <strong>Teklabs Mgmt,</strong> how we got here and where we're going. We're a creative bunch with plenty of ambition to completely revolutionise the way hiring is done. <br />
           </motion.span>
-        </div>
+           </div>
 
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
@@ -31,9 +33,9 @@ const Hero = () => {
         >
           <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="" alt="" />
         </motion.div>
-
+        
         <a className={css.email} href="">
-          companyname@gmail.com
+       <br />
         </a>
 
         <div className={css.lowerElements}>

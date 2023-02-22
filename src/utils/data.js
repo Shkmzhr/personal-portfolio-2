@@ -23,31 +23,31 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
+  "we will help you with finding a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
   "We use process design to create digital products. Besides that also help their business",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Goals",
+    tenure: "Lorem epsom",
+    role: "Aim",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Our objective is to conduct in-depth market research, technology analysis, and to monitor the newest innovations that are being developed around the globe.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Purpose",
+    tenure: "What we are doing ",
+    role: "Planning",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Teklabs Mgmt is committed to delivering superior IT services that are profitable for the clients and that guarantee complete customer satisfaction",
   },
   {
     place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    tenure: "Best in the segment",
+    role: "Quality",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "By pursuing business through innovation and cuttingedge technology, we hope to provide our clients and customers with long-lasting partnerships and great customer service.",
   },
 ];
 

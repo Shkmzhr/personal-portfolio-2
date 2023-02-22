@@ -17,11 +17,11 @@ const Footer = () => {
       className={`innerWidth yPaddings flexCenter ${css.container}`}>
         <div className={css.left}>
           <span className="primaryText">
-            Let's make something <br />
-            amazing together.
+            Get Hired ! <br />
+           Welcome to the Teklabs Mgmt.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            Start by <a href="mailto:teklabsmgmt@gmail.com">saying hi</a>
           </span>
         </div>
 
@@ -32,9 +32,9 @@ const Footer = () => {
           </div>
           <ul className={css.menu}>
             <li>Services</li>
-            <li>Works</li>
+            <li>About Us</li>
             <li>Notes</li>
-            <li>Experience</li>
+            <li>Our Journey</li>
           </ul>
         </div>
       </motion.div>

@@ -27,14 +27,15 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Company Name</div>
+        <img className = "img1" src="./teklabs-logo.ong"></img>
+        <div className={css.name}>Teklabs<br />Mgmt</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
           <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
+          <li><a href="#work">Carrers</a></li>
           <li><a href="#portfolio">National <strong>IT </strong> Solutions</a></li>
           <li><a href="#people">Company Strategy</a></li>
           <li className={`flexCenter ${css.phone}`}>
